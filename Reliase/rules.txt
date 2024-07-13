@@ -1,0 +1,21 @@
+Русская версия:
+
+Блэкджек, также известный как '21', имеет простую суть: игроку нужно набрать 21 очко или ближайшее к этой цифре значение в руке, превышающее сумму в руке у дилера, 
+но ни в коем случае не превышающее 21. Если участник превышает 21, он сгорает. В случае, если сумма очков одинакова у него и дилера, партия заканчивается вничью и 
+каждая сторона остается при своем раскладе. В случае с картами, на которых есть цифры, вы получаете столько очков, сколько написано на карте. 
+Если же на карте нет цифры, то очки даются следующим образом:
+- Туз - 1 очко
+- Валет - 11 очков
+- Дама - 12 очков
+- Король - 13 очков
+
+English version:
+
+Blackjack, also known as '21', has a simple essence: the player needs to score 21 points or the value closest to this figure in the hand, exceeding the amount in the dealer's hand,
+but in no case exceeding 21. If the participant exceeds 21, he burns out. If the sum of points is the same for him and the dealer, the game ends in a draw and
+each side remains in its own scenario. In the case of cards with numbers on them, you get as many points as written on the card. 
+If there is no number on the card, then points are given as follows:
+- Ace - 1 point
+- Jack - 11 points
+- Lady - 12 points
+- King - 13 points
