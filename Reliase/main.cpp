@@ -539,7 +539,7 @@ int main()
         std::cerr << "Error to upload musicred :(" << std::endl;
         return 404;
     }
-    musicmain.setVolume(5);
+    musicmain.setVolume(10);
     if (mus0)
     {
         musicmain.play();
@@ -1463,10 +1463,10 @@ int main()
                             float sliderX = mousePos.x - sliderBackground.getPosition().x;
                             volume = sliderX / sliderBackground.getSize().x;
                             sliderThumb.setPosition(sliderBackground.getPosition().x + sliderX - sliderThumb.getSize().x / 2, sliderBackground.getPosition().y);
-                            musicred.setVolume(volume * 5);
-                            musicblue.setVolume(volume * 5);
-                            musicgreen.setVolume(volume * 5);
-                            musicmain.setVolume(volume * 5);
+                            musicred.setVolume(volume * 10);
+                            musicblue.setVolume(volume * 10);
+                            musicgreen.setVolume(volume * 10);
+                            musicmain.setVolume(volume * 10);
                         }
                         //кнопка мута звука для каждой из песен темы
                         if (muteButton.getGlobalBounds().contains(static_cast<sf::Vector2f>(mousePos)))
